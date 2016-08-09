@@ -48,8 +48,7 @@ public class Airport {
 
 	@Override
 	public String toString() {
-		return "Airport [airportCode=" + airportCode + ", cityCode=" + cityCode + ", countryCode=" + countryCode
-				+ ", coordinates=" + coordinates + ", name=" + name + "]";
+		return "IATA code: " + airportCode + ", country code: " + countryCode + ", city code: " + cityCode;
 	}
 
 	public void setName(String name) {
